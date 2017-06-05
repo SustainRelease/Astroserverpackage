@@ -1,0 +1,14 @@
+{
+  "Astroweb": {
+    "filePath": "../Astroweb",
+    "subRoute": "",
+    "port": 8080,
+    "scriptPath": "../Astroweb/bin/build"
+  },
+  "Revolt": {
+    "filePath": "../Revolt",
+    "subRoute": "/revolt",
+    "port": 8081,
+    "scriptPath": "../Revolt/bin/build"
+  }
+}
