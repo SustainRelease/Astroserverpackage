@@ -1,11 +1,21 @@
 {
-  "name": "astroserverpackage",
-  "version": "1.0.0",
-  "description": "Package for running the astroweb server",
-  "main": "",
-  "scripts": {
-    "start": "node bin/build"
-  },
-  "author": "Robbie Muir",
-  "license": "ISC"
+
+	"name": "astroserverpackage",
+
+	"version": "1.0.0",
+
+	"description": "Package for running the astroweb server",
+
+	"main": "",
+
+	"scripts": 
+	{
+
+		"start": "cd Astroweb && git pull && cd .. && cd Revolt && git pull && cd .. && sudo service nginx restart && pm2 start bin/build.js"
+	},
+
+	"author": "Robbie Muir",
+
+	"license": "ISC"
+
 }
