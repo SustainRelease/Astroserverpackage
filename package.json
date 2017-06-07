@@ -11,7 +11,7 @@
 	"scripts": 
 	{
 
-		"start": "cd Astroweb && git pull && cd .. && cd Revolt && git pull && cd .. && sudo service nginx restart && pm2 start bin/build.js"
+		"start": "cd Astroweb && git pull && cd .. && cd Revolt && git pull && cd .. && sudo service nginx restart && pm2 delete build && pm2 start bin/build.js"
 	},
 
 	"author": "Robbie Muir",
