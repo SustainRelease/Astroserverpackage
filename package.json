@@ -11,7 +11,7 @@
 	"scripts":
 	{
 		"update": "cd Astroweb && git pull && cd .. && cd Revolt && git pull && cd .. && git pull",
-		"start": "sudo service mongod start && sudo service nginx restart && pm2 start bin/build.js",
+		"start": "sudo service mongod start && sudo service nginx start && pm2 start bin/build.js",
 		"restart": "sudo service nginx restart && pm2 delete build && pm2 start bin/build.js"
 	},
 
