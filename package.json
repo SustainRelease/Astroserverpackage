@@ -10,7 +10,7 @@
 
 	"scripts":
 	{
-		"firstBuild": "git clone https://github.com/SustainRelease/Revolt && cd Revolt && npm install && cd .. && git clone https://github.com/SustainRelease/Astroweb	&& cd Astroweb && npm install && sudo node ./admin/shell/projectReset.js cd .. && git pull && npm install",
+		"firstBuild": "git clone https://github.com/SustainRelease/Revolt && cd Revolt && npm install && cd .. && git clone https://github.com/SustainRelease/Astroweb && cd Astroweb && npm install && sudo node ./admin/shell/projectReset.js && cd .. && git pull && npm install",
 		"update": "cd Astroweb && git pull && npm install && cd .. && cd Revolt && git pull && npm install && cd .. && git pull && npm install",
 		"start": "sudo service mongod start && sudo service nginx start && pm2 start bin/build.js",
 		"restart": "sudo service nginx restart && pm2 delete build && pm2 start bin/build.js"
