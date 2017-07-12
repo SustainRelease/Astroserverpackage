@@ -10,5 +10,12 @@
     "subRoute": "/revolt",
     "port": 8081,
     "scriptPath": "../Revolt/bin/build"
+  },
+  "Max": {
+    "filePath": "../Max",
+    "subRoute": "/max",
+    "port": 8082,
+    "scriptPath": "../Max/bin/build"
   }
+
 }
